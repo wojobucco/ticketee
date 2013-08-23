@@ -2,7 +2,7 @@ Given(/^(?:|I )am on (.+)$/) do |page_name|
 	visit path_to(page_name)
 end
 
-When(/^I follow "(.*?)"$/) do |arg1|
+When(/^I follow "(.*?)"$/) do |link_name|
   pending # express the regexp above with the code you wish you had
 end
 
