@@ -3,18 +3,18 @@ Given(/^(?:|I )am on (.+)$/) do |page_name|
 end
 
 When(/^I follow "(.*?)"$/) do |link_name|
-  pending # express the regexp above with the code you wish you had
+	click_link link_name
 end
 
-When(/^I fill in "(.*?)" with "(.*?)"$/) do |arg1, arg2|
-  pending # express the regexp above with the code you wish you had
+When(/^I fill in "(.*?)" with "(.*?)"$/) do |field, data|
+	fill_in field, :with => data
 end
 
-When(/^I press "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+When(/^I press "(.*?)"$/) do |button|
+	click_button button
 end
 
-Then(/^I should see "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then(/^I should see "(.*?)"$/) do |text|
+	assert page.has_content?(text)
 end
 
