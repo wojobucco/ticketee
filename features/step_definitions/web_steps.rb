@@ -22,3 +22,6 @@ Then(/^I should be on the project page for "(.*?)"$/) do |project|
 	assert page.has_title?(project + " - Projects - Ticketee")
 end
 
+Then(/^I should not see "(.*?)"$/) do |text|
+	assert !page.has_content?(text)
+end
