@@ -18,12 +18,11 @@ Then(/^I should see "(.*?)"$/) do |text|
 	if (text =~ /" within "/)
 		matches = text.split /" within "/
 		text = matches[0]
-		puts text
 		within = matches[1]
-		puts within
 	end
 
 	assert page.has_content?(text), "#{text} was not found"
+	#todo we need to get "within" to work properly
 end
 
 Then(/^I should be on the project page for "(.*?)"$/) do |project|
