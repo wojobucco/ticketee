@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddAdminToUsers	./db/migrate/20131025161112_add_admin_to_users.rb	/^class AddAdminToUsers < ActiveRecord::Migration$/;"	c
+AddConfirmableFieldsToUsers	./db/migrate/20131018153006_add_confirmable_fields_to_users.rb	/^class AddConfirmableFieldsToUsers < ActiveRecord::Migration$/;"	c
+AddUserIdToTickets	./db/migrate/20131018192608_add_user_id_to_tickets.rb	/^class AddUserIdToTickets < ActiveRecord::Migration$/;"	c
+Application	./config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Ticketee
+ApplicationController	./app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	./app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateProjects	./db/migrate/20130823185316_create_projects.rb	/^class CreateProjects < ActiveRecord::Migration$/;"	c
+CreateTickets	./db/migrate/20130925212128_create_tickets.rb	/^class CreateTickets < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	./db/migrate/20131018142750_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+EmailHelpers	./features/step_definitions/email_steps.rb	/^module EmailHelpers$/;"	m
+NavigationHelpers	./features/support/paths.rb	/^module NavigationHelpers$/;"	m
+Project	./app/models/project.rb	/^class Project < ActiveRecord::Base$/;"	c
+ProjectsController	./app/controllers/projects_controller.rb	/^class ProjectsController < ApplicationController$/;"	c
+ProjectsHelper	./app/helpers/projects_helper.rb	/^module ProjectsHelper$/;"	m
+Ticket	./app/models/ticket.rb	/^class Ticket < ActiveRecord::Base$/;"	c
+Ticketee	./config/application.rb	/^module Ticketee$/;"	m
+TicketsController	./app/controllers/tickets_controller.rb	/^class TicketsController < ApplicationController$/;"	c
+TicketsHelper	./app/helpers/tickets_helper.rb	/^module TicketsHelper$/;"	m
+User	./app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+admins_only	./app/helpers/application_helper.rb	/^  def admins_only(&block)$/;"	f	class:ApplicationHelper
+authorize_admin!	./app/controllers/application_controller.rb	/^  def authorize_admin!$/;"	f	class:ApplicationController
+change	./db/migrate/20130823185316_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
+change	./db/migrate/20130925212128_create_tickets.rb	/^  def change$/;"	f	class:CreateTickets
+change	./db/migrate/20131018153006_add_confirmable_fields_to_users.rb	/^  def change$/;"	f	class:AddConfirmableFieldsToUsers
+change	./db/migrate/20131018192608_add_user_id_to_tickets.rb	/^  def change$/;"	f	class:AddUserIdToTickets
+change	./db/migrate/20131025161112_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
+create	./app/controllers/projects_controller.rb	/^	def create$/;"	f	class:ProjectsController
+create	./app/controllers/tickets_controller.rb	/^	def create$/;"	f	class:TicketsController
+current_email_address	./features/step_definitions/email_steps.rb	/^  def current_email_address$/;"	f	class:EmailHelpers
+destroy	./app/controllers/projects_controller.rb	/^	def destroy$/;"	f	class:ProjectsController
+destroy	./app/controllers/tickets_controller.rb	/^	def destroy$/;"	f	class:TicketsController
+down	./db/migrate/20131018142750_devise_create_users.rb	/^  def self.down$/;"	F	class:DeviseCreateUsers
+edit	./app/controllers/projects_controller.rb	/^	def edit$/;"	f	class:ProjectsController
+edit	./app/controllers/tickets_controller.rb	/^	def edit$/;"	f	class:TicketsController
+find_project	./app/controllers/projects_controller.rb	/^	def find_project$/;"	f	class:ProjectsController
+find_project	./app/controllers/tickets_controller.rb	/^	def find_project$/;"	f	class:TicketsController
+find_ticket	./app/controllers/tickets_controller.rb	/^	def find_ticket$/;"	f	class:TicketsController
+index	./app/controllers/projects_controller.rb	/^  def index$/;"	f	class:ProjectsController
+new	./app/controllers/projects_controller.rb	/^	def new$/;"	f	class:ProjectsController
+new	./app/controllers/tickets_controller.rb	/^	def new$/;"	f	class:TicketsController
+path_to	./features/support/paths.rb	/^ def path_to(page_name)$/;"	f	class:NavigationHelpers
+show	./app/controllers/projects_controller.rb	/^	def show$/;"	f	class:ProjectsController
+show	./app/controllers/tickets_controller.rb	/^	def show$/;"	f	class:TicketsController
+title	./app/helpers/application_helper.rb	/^	def title(*parts)$/;"	f	class:ApplicationHelper
+up	./db/migrate/20131018142750_devise_create_users.rb	/^  def self.up$/;"	F	class:DeviseCreateUsers
+update	./app/controllers/projects_controller.rb	/^	def update$/;"	f	class:ProjectsController
+update	./app/controllers/tickets_controller.rb	/^	def update$/;"	f	class:TicketsController
